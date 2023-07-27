@@ -5,7 +5,7 @@ public class ReassigningValues {
         int first = 1;
         int second = 10;
         int third = 100;
-        System.out.println(first + "\n" + second + "\n" + third + "\n");
+        System.out.println(first + "\n" + second + "\n" + third);
 
         int linkToFirst = first;
         int linkToSecond = second;
@@ -14,7 +14,9 @@ public class ReassigningValues {
         first = 15;
         second = 6;
         third = 4;
-        System.out.println(first + "\n" + second + "\n" + third + "\n");
+       // System.out.println(first + "\n" + second + "\n" + third + "\n");
+        System.out.println(first + "\n" + second + "\n" + third + "\n" + linkToFirst + "\n" + linkToSecond + "\n" + linkToThird + "\n");
+
 
         //Declare another 3 variables: first, second, third (1,10,100).
         // Make console output of 3 initial vars (first, second, third) each on new line.
